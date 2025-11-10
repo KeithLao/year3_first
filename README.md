@@ -11,7 +11,7 @@ To enable multi-label prediction, the **Decoupling Classifier** is integrated as
 
 ### 🔹 Key Features
 - Input: 1D vibration signal sampled at 10 kHz  
-- Network: Convolutional + Fully Connected layers  
+- Network: CNN + classifying layers
 - Classifier: Decoupling classifier with iteration-based weight updates  
 - Loss Function: Modified **margin loss** (with parameters m⁺=0.9, m⁻=0.1, λ=0.25)
 - Adam optimizer with initial parameter
