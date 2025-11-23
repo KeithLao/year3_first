@@ -15,7 +15,7 @@ To enable multi-label prediction, the **Decoupling Classifier** is integrated as
 - Classifier: Decoupling classifier with iteration-based weight updates  
 - Loss Function: Modified **margin loss** (with parameters m⁺=0.9, m⁻=0.1, λ=0.25)
 - Adam optimizer with initial parameter
-- Training Epochs = 20 or 30(Case of more data) 
+- Training Epochs = 20 or 30 (Case of more data) 
 - Batch Size = 32 
 
 ## ⚙️ Dataset
